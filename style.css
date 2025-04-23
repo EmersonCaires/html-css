@@ -220,6 +220,7 @@ footer {
     main {
         width: 100%; /* Aumenta a largura para smartphones */
         padding: 10px; /* Adiciona espaçamento interno para melhorar o layout */
+        
     }
     
     .bug {
@@ -229,6 +230,13 @@ footer {
     aside {
         width: 100%; /* Ajusta a largura da seção lateral para telas menores */
     }
+        header {
+        width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+        margin: 0; /* Remove margens externas */
+        padding: 10px; /* Ajusta o espaçamento interno */
+        box-sizing: border-box; /* Garante alinhamento correto */
+    }
+
 }
 
 
