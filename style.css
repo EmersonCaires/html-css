@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/IDroid.otf) format('opentype');
+}
+
+body {
+    background: linear-gradient(to top, #5CD4B5, #117F63);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, #8BD989, #073b2e);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+  
+
+    .paragrafo {
+        font-family: "Chivo Mono", sans-serif;
+        font-size: 1.2em;
+        max-width: 90%;
+        margin: 10px auto;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .menu {
+       text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+
+    .menu a {
+        color: white;
+        margin-right: 10px;
+        display: inline;
+        text-decoration: none;
+      
+    }
+
+    .menu a:hover {
+        background-color: #509320af;
+        /* Cor de fundo branca clara */
+        padding: 5px;
+        /* Espaçamento ao redor do texto */
+        border: 1px solid #05461acf;
+        /* Borda cinza clara */
+        border-radius: 5px;
+        /* Cantos arredondados */
+    }
+
+}
+
+main {
+    background-color: #ffffff;
+    width: 54%;
+    height: auto;
+    text-align: left;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 10px 10px;
+  
+    h1,
+    h3 {
+        font-family: "Idroid", sans-serif;
+        color: #036529;
+        margin-left: 10px;
+    }
+
+     p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 30px;
+        text-align: justify;
+        margin: 15px 0px;
+        padding: 8px;
+        line-height: 2em;
+        font-size: 1em;
+       
+    }
+
+    .android {
+        color: #117F63;
+        font-weight: bold;
+    }
+
+    .google {
+        color: #117F63;
+        font-weight: bold;
+    }
+
+    .highlight {
+        background: linear-gradient(to right, #117f6334, #ffffff)
+    }
+
+
+    .droid {
+        color: #117F63;
+        font-weight: bold;
+    }
+
+    .bug {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+    }
+
+     aside { 
+        background-color: #8ad98980;
+        border-radius: 10px;
+        margin: 0 auto;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.521);
+        width: 95%;
+
+     }
+
+     aside ol {
+        columns: 2;
+        list-style-type: '\2714\00A0\00A0';
+     }
+
+     aside h3 {
+        background-color: #073b2e;
+        color: white;
+        padding: 5px;
+        margin: 0 ;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px 10px 0px 0px;
+    
+     }
+
+
+    .pmain {
+
+        padding: 15px;
+    }
+
+    .ol1 {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        font-weight: bold;
+    }
+
+    .ol2 {
+        margin-top: -166px;
+        margin-left: 400px;
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        font-weight: bold;
+    }
+
+    .link {
+        color: #117F63;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #117F63;
+
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color:#186a56 ;
+    }
+
+
+    .texto-marcado {
+        background-color: #16ee0f7c;
+    }
+
+
+    img {  
+        width: 100%;
+    }
+
+    .video {
+        background-color: #073b2e;
+        margin: 0px -5px 30px -5px;
+        padding: 20px;
+        position: relative;
+        padding-bottom: 57.9%;
+    }
+
+    .video > iframe {
+        position:absolute;
+        top: 7%;
+        left: 5%;
+        height: 85%;
+        width: 90%;
+        
+    }
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+  }
