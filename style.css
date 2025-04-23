@@ -232,10 +232,14 @@ footer {
 }
 @media (max-width: 768px) {
     header {
-        width: 100%; /* Faz o cabeçalho ocupar toda a largura */
-        margin: 0; /* Remove qualquer margem que possa limitar o layout */
-        padding: 10px; /* Adiciona um espaçamento interno para melhorar o visual */
-        box-shadow: none; /* Caso você deseje remover sombras em telas pequenas */
+        width: 100%; /* Ocupa toda a largura */
+        margin: 0; /* Remove margens externas */
+        padding: 0; /* Remove espaçamento interno que possa causar desajuste */
+    }
+
+    body {
+        margin: 0; /* Certifique-se de que o corpo também não tenha margens */
+        padding: 0; /* Remove espaçamento interno do body */
     }
 }
 
