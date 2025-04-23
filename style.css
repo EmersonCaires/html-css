@@ -215,3 +215,18 @@ footer {
     position: relative;
     bottom: 0;
   }
+
+@media (max-width: 768px) {
+    main {
+        width: 90%; /* Aumenta a largura para smartphones */
+        padding: 10px; /* Adiciona espaçamento interno para melhorar o layout */
+    }
+    
+    .bug {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    }
+
+    aside {
+        width: 100%; /* Ajusta a largura da seção lateral para telas menores */
+    }
+}
