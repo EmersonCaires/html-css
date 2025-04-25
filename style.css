@@ -235,6 +235,7 @@ footer {
         margin: 0; /* Remove margens externas */
         padding: 10px; /* Ajusta o espaçamento interno */
         box-sizing: border-box; /* Garante alinhamento correto */
+        overflow-x: hidden;
     }
 
 }
