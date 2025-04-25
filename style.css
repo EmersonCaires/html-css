@@ -67,7 +67,7 @@ main {
     height: auto;
     text-align: left;
     margin: auto;
-    padding: 5px;
+    padding: 20px; /* Aumenta o espaço interno */
     box-shadow: 0px 0px 10px black;
     border-radius: 0px 0px 10px 10px;
   
