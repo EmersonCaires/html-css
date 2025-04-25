@@ -5,11 +5,7 @@
     src: url(fontes/IDroid.otf) format('opentype');
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
 
 body {
     background: linear-gradient(to top, #5CD4B5, #117F63);
@@ -126,11 +122,11 @@ main {
     }
 
      aside { 
-        background-color: #8ad98980;
-        border-radius: 10px;
-        margin: 0 auto;
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.521);
-        width: 95%;
+        background-color: #c5ebd6;
+        padding: 20px;        /* Espaço interno em todos os lados */
+        margin: 20px auto;    /* Espaço externo e centralização horizontal */
+        max-width: 800px;     /* Garante que o aside não fique gigante em telas grandes */
+        border-radius: 10px;  /* Cantos arredondados bonitinhos */
 
      }
 
