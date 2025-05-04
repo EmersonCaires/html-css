@@ -213,7 +213,10 @@ footer {
     position: relative;
     width: 100%;
     box-sizing: border-box;
+    padding: 5px 10px; /* reduz a altura */
+    font-size: 0.9em;  /* opcional: deixa a fonte um pouco menor */
 }
+
 
 
   @media (max-width: 768px) {
