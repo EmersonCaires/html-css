@@ -23,45 +23,40 @@ header {
     text-align: center;
     padding: 5px;
     font-family: "Oswald", sans-serif;
-  
-
-    .paragrafo {
-        font-family: "Chivo Mono", sans-serif;
-        font-size: 1.2em;
-        max-width: 90%;
-        margin: 10px auto;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    .menu {
-       text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        margin-top: 20px;
-
-    }
-
-    .menu a {
-        color: white;
-        margin-right: 10px;
-        display: inline;
-        text-decoration: none;
-      
-    }
-
-    .menu a:hover {
-        background-color: #509320af;
-        /* Cor de fundo branca clara */
-        padding: 5px;
-        /* Espaçamento ao redor do texto */
-        border: 1px solid #05461acf;
-        /* Borda cinza clara */
-        border-radius: 5px;
-        /* Cantos arredondados */
-    }
-
+    width: 100%;
+    box-sizing: border-box;
 }
+
+.paragrafo {
+    font-family: "Chivo Mono", sans-serif;
+    font-size: 1.2em;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.menu {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.menu a {
+    color: white;
+    margin-right: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #509320af;
+    padding: 5px;
+    border: 1px solid #05461acf;
+    border-radius: 5px;
+}
+
 
 main {
     background-color: #ffffff;
@@ -216,31 +211,36 @@ footer {
     color: white;
     text-align: center;
     position: relative;
-    bottom: 0;
-  }
-
-@media (max-width: 768px) {
-    main {
-        width: 100%; /* Aumenta a largura para smartphones */
-        padding: 10px; /* Adiciona espaçamento interno para melhorar o layout */
-        
-    }
-    
-    .bug {
-        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
-    }
-
-    aside {
-        width: 100%; /* Ajusta a largura da seção lateral para telas menores */
-    }
-        header {
-        width: 100%; /* Faz o cabeçalho ocupar toda a largura */
-        margin: 0; /* Remove margens externas */
-        padding: 10px; /* Ajusta o espaçamento interno */
-        box-sizing: border-box; /* Garante alinhamento correto */
-       
-    }
-
+    width: 100%;
+    box-sizing: border-box;
 }
+
+
+  @media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    header,
+    footer,
+    main,
+    aside {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .ol2 {
+        margin-left: 0; /* essa margem fixa estava quebrando o layout */
+        margin-top: 0;
+    }
+}
+
 
 
