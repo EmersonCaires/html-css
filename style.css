@@ -212,10 +212,11 @@ footer {
     text-align: center;
     position: relative;
     width: 100%;
-    box-sizing: border-box;
-    padding: 5px 10px; /* reduz a altura */
-    font-size: 0.9em;  /* opcional: deixa a fonte um pouco menor */
+    height: 40px; /* define uma altura fixa */
+    line-height: 40px; /* alinha o texto verticalmente no centro */
+    font-size: 0.9em;
 }
+
 
 
 
