@@ -211,8 +211,7 @@ footer {
     color: white;
     text-align: center;
     width: 100%;
-    padding: 5px 0; /* controla a altura de forma natural */
-    font-size: 0.8em; /* opcional: diminui o texto se quiser deixar ainda mais compacto */
+    height: 7px;
 }
 
 
